@@ -27,4 +27,10 @@ public class Circle {
     public void setY(int y) {
         this.y = y;
     }
+    public double kerulet(){
+        return 2*3.147*x;
+    }
+    public double terulet() {
+        return (3.147 * x) * (3.147 * x);
+    }
 }
