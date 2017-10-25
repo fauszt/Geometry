@@ -2,7 +2,7 @@ package geometry;
 
 public class Triangle {
 
-    private int x;
+    private float x;
     public Triangle() {
     }
 
