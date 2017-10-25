@@ -27,9 +27,9 @@ public class rectangle {
     }
     
     public double perimeter(){
-        return 2 * (p.getX() - p1.getX()) + 2 * (p.getY() - p1.getY()); 
+        return 2 * ((p.getX() - p1.getX()) + (p.getY() - p1.getY()));
     }
     
- 
+
     
 }
