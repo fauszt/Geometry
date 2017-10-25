@@ -5,19 +5,19 @@ package geometry;
  */
 public class Circle {
 
-    private int x,y;
+    private int n,y;
 
     public Circle(int x, int y) {
-        this.x = x;
+        this.n = x;
         this.y = y;
     }
 
     public int getX() {
-        return x;
+        return n;
     }
 
     public void setX(int x) {
-        this.x = x;
+        this.n = x;
     }
 
     public int getY() {
@@ -28,9 +28,9 @@ public class Circle {
         this.y = y;
     }
     public double kerulet(){
-        return 2*3.147*x;
+        return 2*3.147*n;
     }
     public double terulet() {
-        return (3.147 * x) * (3.147 * x);
+        return (3.147 * n) * (3.147 * n);
     }
 }
