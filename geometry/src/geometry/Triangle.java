@@ -2,19 +2,19 @@ package geometry;
 
 public class Triangle {
 
-    private int x;
+    private double x;
     public Triangle() {
     }
 
-    public int getX() {
+    public double getX() {
         return x;
     }
 
-    public void setX(int x) {
+    public void setX(double x) {
         this.x = x;
     }
 
-    public int kerulet(int x) {
+    public double kerulet(double x) {
         return x*3;
     }
 }
